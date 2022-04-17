@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' href='{{css}}' media='all'>
+    <title>{{ titre }}</title>
+</head>
+<body>
+<header role="banner" class="blur">
+    <div class="adams">
+        <h1 class="marge">XXXXX Julien</h1>
+        <a class="evitement" href="#contenu">Aller au contenu</a>
+        <div class="english"><img src="{{headerimg[0]}}" alt="UK Flag" width="20"><a href="{{languagelink}}">English</a></div>
+    </div>
+</header>
+<nav role="navigation" class="blur">
+    <ul class="menu">
+        <li><a href="cate1_arti1.php" class="accu">Accueil</a></li>
+        <li class="deroulant"><a href="#">Réalisation personnelle</a>
+            <ul class="sous">
+                <li><a href="{{rea_article_lien.prem_lien}}">{{rea_article_nom.prem_nom}}</a></li>
+                <li><a href="{{rea_article_lien.deux_lien}}">{{rea_article_nom.deux_nom}}</a></li>
+                <li><a href="{{rea_article_lien.trois_lien}}">{{rea_article_nom.trois_nom}}</a></li>
+                <li><a href="{{rea_article_lien.quatre_lien}}">{{rea_article_nom.quatre_nom}}</a></li>
+                <li><a href="{{rea_article_lien.cinq_lien}}">{{rea_article_nom.cinq_nom}}</a></li>
+            </ul>
+        </li>
+        <li class="deroulant"><a href="#">Projet</a>
+            <ul class="sous">
+                <li><a href="{{projet_article_lien.prem_lien}}">{{projet_article_nom.prem_nom}}</a></li>
+                <li><a href="{{projet_article_lien.deux_lien}}">{{projet_article_nom.deux_nom}}</a></li>
+                <li><a href="{{projet_article_lien.trois_lien}}">{{projet_article_nom.trois_nom}}</a></li>
+                <li><a href="{{projet_article_lien.quatre_lien}}">{{projet_article_nom.quatre_nom}}</a></li>
+                <li><a href="{{projet_article_lien.cinq_lien}}">{{projet_article_nom.cinq_nom}}</a></li>
+            </ul>
+        </li>
+        <li class="deroulant"><a href="#">Moi</a>
+            <ul class="sous">
+                <li><a href="{{moi_article_lien.prem_lien}}">{{moi_article_nom.prem_nom}}</a></li>
+                <li><a href="{{moi_article_lien.deux_lien}}">{{moi_article_nom.deux_nom}}</a></li>
+                <li><a href="{{moi_article_lien.trois_lien}}">{{moi_article_nom.trois_nom}}</a></li>
+                <li><a href="{{moi_article_lien.quatre_lien}}">{{moi_article_nom.quatre_nom}}</a></li>
+                <li><a href="{{moi_article_lien.cinq_lien}}">{{moi_article_nom.cinq_nom}}</a></li>
+            </ul>
+        </li>
+        <li><a href="contact.php"><img src="{{headerimg[1]}}" alt="logo contact" width="20"></a></li>
+    </ul>
+</nav>
